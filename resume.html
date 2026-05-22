@@ -1,0 +1,140 @@
+
+    <div className="min-h-screen bg-gray-100 text-gray-900 p-6">
+      <div className="max-w-5xl mx-auto bg-white shadow-2xl rounded-3xl overflow-hidden">
+        
+        <div className="bg-black text-white p-10">
+          <h1>Rahul Kumar Singh</h1>
+          <p className="text-xl mt-3 text-gray-300">
+            Java Developer | Tech Enthusiast | B.Tech Student
+          </p>
+
+          <div className="mt-6 grid md:grid-cols-3 gap-4 text-sm text-gray-300">
+            <p>📧 beingrahul0001@gmail.com</p>
+            <p>📧 2403051050731@paruluniversity.ac.in</p>
+            <p>📱 +91 8409970580</p>
+            <p>📍 Vadodara, Gujarat</p>
+          </div>
+        </div>
+
+        
+        <section className="p-8 border-b">
+          <h2 className="text-3xl font-bold mb-4">About Me</h2>
+          <p className="text-lg leading-8 text-gray-700">
+            Motivated B.Tech student with basic knowledge of programming and problem-solving skills.
+             Interested in software development and looking for opportunities to gain practical experience.
+          </p>
+        </section>
+
+        
+        <section className="p-8 border-b bg-gray-50">
+          <h2 className="text-3xl font-bold mb-6">Skills</h2>
+
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {[
+              'Java',
+              'HTML',
+              'CSS',
+              'JavaScript',
+              'Data Structures',
+              'Git & GitHub',
+              'Problem Solving',
+              'OOP Concepts',
+              'SQL'
+            }]
+              <div
+                key={skill}
+                className="bg-white shadow-md rounded-2xl p-4 text-center font-semibold hover:scale-105 transition"
+              >
+                
+              </div>
+            
+          </div>
+        </section>
+
+        
+        <section className="p-8 border-b">
+          <h2 className="text-3xl font-bold mb-6">Education</h2>
+
+          <div className="bg-gray-50 p-6 rounded-2xl shadow-sm">
+            <h3 className="text-2xl font-semibold">B.Tech - Computer Science</h3>
+            <p className="text-lg text-gray-600 mt-2">Parul University</p>
+            <p className="text-gray-500 mt-1">Currently Pursuing</p>
+          </div>
+        </section>
+
+        <section className="p-8 border-b">
+          <h2 className="text-3xl font-bold mb-6">Language</h2>
+
+          <div className="bg-gray-50 p-6 rounded-2xl shadow-sm">
+            <h4 className="text-2xl font-semibold">English</h4>
+            <p className="text-lg text-gray-600 mt-2">Hindi</p>
+            <p className="text-gray-500 mt-1">Bihari</p>
+          </div>
+        </section>
+
+        
+        <section className="p-8 border-b bg-gray-50">
+          <h2 className="text-3xl font-bold mb-6">Experience</h2>
+
+          <div className="bg-white p-6 rounded-2xl shadow-md">
+            <h3 className="text-2xl font-semibold">front-end developer</h3>
+            <p className="text-lg text-gray-600 mt-1">Celebration Hub</p>
+            <p className="text-gray-700 mt-4 leading-7">
+              Worked in a fast-paced environment while managing customer service,
+              teamwork, and daily operations. Developed communication and time
+              management skills.
+            </p>
+          </div>
+        </section>
+
+        
+        <section className="p-8 border-b">
+          <h2 className="text-3xl font-bold mb-6">Projects</h2>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-gray-50 p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+              <h3 className="text-2xl font-semibold">Loan Default Prediction Model</h3>
+              <p className="text-gray-700 mt-4 leading-7">
+                Actively contributed to startup celebration events by managing tasks, coordinating with team members, and ensuring smooth execution of activities.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+              <h3 className="text-2xl font-semibold">Java DSA Solutions</h3>
+              <p className="text-gray-700 mt-4 leading-7">
+                Solved multiple coding problems using Java focusing on arrays,
+                recursion, trees, graphs, and HashMap concepts.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        
+        <section className="p-8 bg-black text-white text-center">
+          <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
+          <p className="text-lg text-gray-300">
+            Feel free to connect for internships, projects, or collaborations.
+          </p>
+
+          <div className="mt-6 flex flex-col md:flex-row justify-center gap-4">
+            <a
+              href="beingrahul0001@gmail.com"
+              className="bg-white text-black px-6 py-3 rounded-2xl font-semibold hover:bg-gray-200 transition"
+            >
+              Email Me
+            </a>
+
+            <a
+              href="https://github.com/rahul787048"
+              target="_blank"
+              rel="noreferrer"
+              className="border border-white px-6 py-3 rounded-2xl font-semibold hover:bg-white hover:text-black transition"
+            >
+              GitHub
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+}
